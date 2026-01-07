@@ -90,7 +90,7 @@ export default function About() {
             </h2>
             <p className="text-white/70 text-lg mb-8 leading-relaxed">
               {settings.description} We believe travel is about more than just visiting places —
-              it's about experiencing cultures, making connections, and creating stories
+              it&apos;s about experiencing cultures, making connections, and creating stories
               that last a lifetime.
             </p>
 

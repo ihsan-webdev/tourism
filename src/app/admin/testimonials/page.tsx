@@ -178,7 +178,7 @@ export default function TestimonialsPage() {
             </div>
 
             <p className="text-text-secondary text-sm leading-relaxed mb-4 line-clamp-3">
-              "{testimonial.text}"
+              &quot;{testimonial.text}&quot;
             </p>
 
             <div className="flex items-center justify-between pt-4 border-t border-gray-100">

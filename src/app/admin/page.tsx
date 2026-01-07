@@ -8,9 +8,6 @@ import {
   Image,
   MessageSquare,
   TrendingUp,
-  Users,
-  Eye,
-  Calendar,
   ArrowUpRight,
   Plus
 } from 'lucide-react';
@@ -76,7 +73,7 @@ export default function AdminDashboard() {
             Welcome Back, Admin! 👋
           </h1>
           <p className="text-text-secondary mt-1">
-            Here's what's happening with your tourism website today.
+            Here&apos;s what&apos;s happening with your tourism website today.
           </p>
         </div>
         <div className="flex gap-3">

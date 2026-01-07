@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, Search, Trash2, X, Save, Image as ImageIcon, Upload } from 'lucide-react';
+import { Plus, Search, Trash2, X, Save, Image as ImageIcon } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
-import { generateId, categories } from '@/lib/utils';
+import { generateId } from '@/lib/utils';
 import { GalleryItem } from '@/lib/types';
 
 export default function GalleryPage() {
@@ -131,8 +131,8 @@ export default function GalleryPage() {
               key={cat}
               onClick={() => setSelectedCategory(cat)}
               className={`px-4 py-2 rounded-xl font-medium transition-all ${selectedCategory === cat
-                  ? 'bg-primary-gold text-dark-bg'
-                  : 'bg-white text-text-secondary hover:bg-gray-100'
+                ? 'bg-primary-gold text-dark-bg'
+                : 'bg-white text-text-secondary hover:bg-gray-100'
                 }`}
             >
               {cat}

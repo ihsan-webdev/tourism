@@ -14,7 +14,20 @@ export default function ExperiencesPage() {
   const [editingItem, setEditingItem] = useState<Experience | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<{
+    name: string;
+    description: string;
+    shortDescription: string;
+    image: string;
+    icon: string;
+    price: number;
+    duration: string;
+    difficulty: 'Easy' | 'Moderate' | 'Intermediate' | 'Challenging';
+    maxParticipants: number;
+    included: string;
+    category: string;
+    featured: boolean;
+  }>({
     name: '',
     description: '',
     shortDescription: '',
@@ -22,7 +35,7 @@ export default function ExperiencesPage() {
     icon: 'Mountain',
     price: 0,
     duration: '',
-    difficulty: 'Easy' as const,
+    difficulty: 'Easy',
     maxParticipants: 10,
     included: '',
     category: 'Adventure',
@@ -190,8 +203,8 @@ export default function ExperiencesPage() {
               </div>
               <div className="flex items-center justify-between pt-3 border-t border-gray-100">
                 <span className={`px-2 py-1 rounded-full text-xs font-medium ${exp.difficulty === 'Easy' ? 'bg-green-100 text-green-700' :
-                    exp.difficulty === 'Challenging' ? 'bg-orange-100 text-orange-700' :
-                      'bg-yellow-100 text-yellow-700'
+                  exp.difficulty === 'Challenging' ? 'bg-orange-100 text-orange-700' :
+                    'bg-yellow-100 text-yellow-700'
                   }`}>
                   {exp.difficulty}
                 </span>
@@ -304,7 +317,7 @@ export default function ExperiencesPage() {
                     <label className="block text-sm font-medium text-dark-bg mb-2">Difficulty</label>
                     <select
                       value={formData.difficulty}
-                      onChange={(e) => setFormData({ ...formData, difficulty: e.target.value as any })}
+                      onChange={(e) => setFormData({ ...formData, difficulty: e.target.value as 'Easy' | 'Moderate' | 'Intermediate' | 'Challenging' })}
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary-gold transition-colors"
                     >
                       {difficulties.map((d) => (
@@ -315,7 +328,7 @@ export default function ExperiencesPage() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-dark-bg mb-2">What's Included (comma separated)</label>
+                  <label className="block text-sm font-medium text-dark-bg mb-2">What&apos;s Included (comma separated)</label>
                   <input
                     type="text"
                     value={formData.included}

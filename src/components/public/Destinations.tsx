@@ -49,7 +49,7 @@ export default function Destinations() {
             transition={{ delay: 0.1 }}
             className="section-title text-dark-bg"
           >
-            Explore Indonesia's <br />
+            Explore Indonesia&apos;s <br />
             <span className="text-primary-gold italic">Hidden Gems</span>
           </motion.h2>
           <motion.p
@@ -86,9 +86,9 @@ export default function Destinations() {
                     className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                     style={{
                       backgroundImage: `url('https://images.unsplash.com/photo-${index === 0 ? '1537996194471-e657a0bdeaaa' :
-                          index === 1 ? '1555993539-1732b0258235' :
-                            index === 2 ? '1518548419970-58e3b4079ab2' :
-                              '1573790387438-4da905039392'
+                        index === 1 ? '1555993539-1732b0258235' :
+                          index === 2 ? '1518548419970-58e3b4079ab2' :
+                            '1573790387438-4da905039392'
                         }?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')`,
                     }}
                   />

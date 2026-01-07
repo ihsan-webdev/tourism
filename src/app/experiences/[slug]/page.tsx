@@ -4,8 +4,8 @@ import { useParams, notFound } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
-  Clock, Users, Check, ArrowLeft, Share2, Heart,
-  Phone, MessageCircle, Star, ChevronRight, Zap
+  Clock, Users, Check, Share2, Heart,
+  Phone, MessageCircle, ChevronRight, Zap
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { formatPrice } from '@/lib/utils';
@@ -79,8 +79,8 @@ export default function ExperienceDetail() {
                   {experience.category}
                 </span>
                 <span className={`inline-block px-4 py-1 text-sm font-medium rounded-full ${experience.difficulty === 'Easy' ? 'bg-green-500 text-white' :
-                    experience.difficulty === 'Challenging' ? 'bg-orange-500 text-white' :
-                      'bg-yellow-500 text-dark-bg'
+                  experience.difficulty === 'Challenging' ? 'bg-orange-500 text-white' :
+                    'bg-yellow-500 text-dark-bg'
                   }`}>
                   {experience.difficulty}
                 </span>
@@ -215,8 +215,8 @@ export default function ExperienceDetail() {
                   <div className="flex items-center justify-between py-3 border-b border-gray-100">
                     <span className="text-text-secondary">Kesulitan</span>
                     <span className={`px-3 py-1 rounded-full text-xs font-medium ${experience.difficulty === 'Easy' ? 'bg-green-100 text-green-700' :
-                        experience.difficulty === 'Challenging' ? 'bg-orange-100 text-orange-700' :
-                          'bg-yellow-100 text-yellow-700'
+                      experience.difficulty === 'Challenging' ? 'bg-orange-100 text-orange-700' :
+                        'bg-yellow-100 text-yellow-700'
                       }`}>
                       {experience.difficulty}
                     </span>

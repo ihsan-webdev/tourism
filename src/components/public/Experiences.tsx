@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Clock, Users, Star, ArrowRight, Waves, Landmark, Mountain, Bird, Utensils, Palmtree } from 'lucide-react';
+import { Clock, Users, ArrowRight, Waves, Landmark, Mountain, Bird, Utensils, Palmtree } from 'lucide-react';
 import Link from 'next/link';
 import { useAppStore } from '@/lib/store';
 import { formatPrice } from '@/lib/utils';

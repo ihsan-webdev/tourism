@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { Instagram, Facebook, Twitter, Youtube, Mail, Phone, MapPin, ArrowUp, Heart } from 'lucide-react';
 import { useAppStore } from '@/lib/store';

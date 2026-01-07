@@ -64,7 +64,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.5 }}
               >
                 <p className="text-xl md:text-2xl text-dark-bg leading-relaxed mb-8 font-light italic">
-                  "{currentTestimonial.text}"
+                  &quot;{currentTestimonial.text}&quot;
                 </p>
 
                 {/* Author Info */}
@@ -73,8 +73,8 @@ export default function Testimonials() {
                     className="w-16 h-16 rounded-full bg-cover bg-center ring-4 ring-primary-gold/20"
                     style={{
                       backgroundImage: `url('https://images.unsplash.com/photo-${currentIndex === 0 ? '1494790108377-be9c29b29330' :
-                          currentIndex === 1 ? '1507003211169-0a1dd7228f2d' :
-                            '1438761681033-6461ffad8d80'
+                        currentIndex === 1 ? '1507003211169-0a1dd7228f2d' :
+                          '1438761681033-6461ffad8d80'
                         }?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80')`,
                     }}
                   />

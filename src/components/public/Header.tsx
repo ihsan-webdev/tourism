@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Phone, MapPin, Sun, Moon } from 'lucide-react';
+import { Menu, X, Phone, MapPin, Sun, Moon } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 
 const navLinks = [
@@ -58,8 +58,8 @@ export default function Header() {
       {/* Main Header */}
       <header
         className={`fixed left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-            ? 'top-0 bg-white/95 backdrop-blur-md shadow-lg py-3'
-            : 'top-0 md:top-10 bg-transparent py-5'
+          ? 'top-0 bg-white/95 backdrop-blur-md shadow-lg py-3'
+          : 'top-0 md:top-10 bg-transparent py-5'
           }`}
       >
         <div className="container-custom flex items-center justify-between">

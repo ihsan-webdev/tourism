@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { MapPin, Star, Search, Filter, ArrowRight } from 'lucide-react';
+import { MapPin, Star, Search } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { formatPrice, categories } from '@/lib/utils';
 import Header from '@/components/public/Header';
@@ -82,8 +82,8 @@ export default function DestinationsPage() {
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
                   className={`px-4 py-2 rounded-full whitespace-nowrap font-medium transition-all ${selectedCategory === cat
-                      ? 'bg-primary-gold text-dark-bg'
-                      : 'bg-gray-100 text-text-secondary hover:bg-gray-200'
+                    ? 'bg-primary-gold text-dark-bg'
+                    : 'bg-gray-100 text-text-secondary hover:bg-gray-200'
                     }`}
                 >
                   {cat}

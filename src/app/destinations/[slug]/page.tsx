@@ -4,7 +4,7 @@ import { useParams, notFound } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
-  MapPin, Star, Clock, Users, Check, ArrowLeft, Share2, Heart,
+  MapPin, Star, Clock, Users, Check, Share2, Heart,
   Phone, MessageCircle, Calendar, ChevronRight
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';

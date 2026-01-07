@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Plus, Search, Edit2, Trash2, Star, MapPin, Eye, X, Save, Upload
+  Plus, Search, Edit2, Trash2, Star, MapPin, X, Save
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { formatPrice, generateId, slugify, categories } from '@/lib/utils';
