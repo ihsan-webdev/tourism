@@ -1,0 +1,32 @@
+{
+  "siteName": "Nusantara Tourism",
+  "tagline": "Discover Paradise",
+  "description": "Jelajahi keindahan Indonesia bersama kami. Destinasi wisata terbaik dengan pengalaman tak terlupakan.",
+  "contact": {
+    "phone": "+62 812 3456 7890",
+    "email": "info@nusantaratourism.com",
+    "address": "Jl. Sudirman No. 123, Jakarta Pusat, Indonesia 10220"
+  },
+  "social": {
+    "instagram": "https://instagram.com/nusantaratourism",
+    "facebook": "https://facebook.com/nusantaratourism",
+    "twitter": "https://twitter.com/nusantaratour",
+    "youtube": "https://youtube.com/nusantaratourism"
+  },
+  "hero": {
+    "title": "Summer Vacations",
+    "subtitle": "Memories that will last forever",
+    "ctaText": "View Our Rooms",
+    "backgroundImage": "/images/hero-bg.jpg"
+  },
+  "stats": {
+    "destinations": 150,
+    "happyTravelers": 25000,
+    "tours": 500,
+    "awards": 45
+  },
+  "adminCredentials": {
+    "email": "admin@tourism.com",
+    "password": "Admin123!"
+  }
+}

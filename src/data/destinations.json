@@ -1,0 +1,154 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Raja Ampat",
+      "slug": "raja-ampat",
+      "location": "Papua Barat",
+      "description": "Surga tersembunyi di timur Indonesia dengan keindahan bawah laut yang tiada tara. Raja Ampat memiliki lebih dari 1.500 pulau kecil dan memiliki keanekaragaman hayati laut tertinggi di dunia.",
+      "shortDescription": "Surga diving dengan terumbu karang terbaik dunia",
+      "image": "/images/destinations/raja-ampat.jpg",
+      "gallery": [
+        "/images/gallery/raja-ampat-1.jpg",
+        "/images/gallery/raja-ampat-2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 2847,
+      "price": 5500000,
+      "category": "Beach",
+      "featured": true,
+      "highlights": [
+        "Diving",
+        "Snorkeling",
+        "Island Hopping",
+        "Photography"
+      ],
+      "createdAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Borobudur",
+      "slug": "borobudur",
+      "location": "Magelang, Jawa Tengah",
+      "description": "Candi Buddha terbesar di dunia dan merupakan salah satu monumen Buddha terbesar di dunia. Dibangun pada abad ke-9 dan menjadi situs Warisan Dunia UNESCO.",
+      "shortDescription": "Candi Buddha terbesar dengan sunrise spektakuler",
+      "image": "/images/destinations/borobudur.jpg",
+      "gallery": [
+        "/images/gallery/borobudur-1.jpg",
+        "/images/gallery/borobudur-2.jpg"
+      ],
+      "rating": 4.8,
+      "reviews": 5621,
+      "price": 750000,
+      "category": "Cultural",
+      "featured": true,
+      "highlights": [
+        "Sunrise Tour",
+        "Temple Exploration",
+        "Photography",
+        "Cultural Experience"
+      ],
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Bali",
+      "slug": "bali",
+      "location": "Bali",
+      "description": "Pulau Dewata yang terkenal dengan budaya, pantai, dan spiritualitasnya. Destinasi wisata paling populer di Indonesia dengan berbagai atraksi menarik.",
+      "shortDescription": "Pulau Dewata dengan keindahan alam dan budaya",
+      "image": "/images/destinations/bali.jpg",
+      "gallery": [
+        "/images/gallery/bali-1.jpg",
+        "/images/gallery/bali-2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 12453,
+      "price": 2500000,
+      "category": "Beach",
+      "featured": true,
+      "highlights": [
+        "Beach",
+        "Temple",
+        "Rice Terrace",
+        "Surfing",
+        "Nightlife"
+      ],
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Komodo Island",
+      "slug": "komodo-island",
+      "location": "Nusa Tenggara Timur",
+      "description": "Rumah bagi komodo, kadal terbesar di dunia. Taman Nasional Komodo menawarkan pengalaman unik bertemu langsung dengan hewan purba ini.",
+      "shortDescription": "Rumah Komodo dragon dan Pink Beach",
+      "image": "/images/destinations/komodo.jpg",
+      "gallery": [
+        "/images/gallery/komodo-1.jpg",
+        "/images/gallery/komodo-2.jpg"
+      ],
+      "rating": 4.7,
+      "reviews": 3215,
+      "price": 4500000,
+      "category": "Adventure",
+      "featured": true,
+      "highlights": [
+        "Komodo Dragon",
+        "Pink Beach",
+        "Snorkeling",
+        "Trekking"
+      ],
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Bromo",
+      "slug": "bromo",
+      "location": "Jawa Timur",
+      "description": "Gunung berapi aktif dengan pemandangan sunrise paling menakjubkan di Indonesia. Caldera Tengger menawarkan landscape yang dramatis.",
+      "shortDescription": "Volcano sunrise dengan pemandangan epik",
+      "image": "/images/destinations/bromo.jpg",
+      "gallery": [
+        "/images/gallery/bromo-1.jpg",
+        "/images/gallery/bromo-2.jpg"
+      ],
+      "rating": 4.8,
+      "reviews": 4521,
+      "price": 1200000,
+      "category": "Adventure",
+      "featured": false,
+      "highlights": [
+        "Sunrise",
+        "Jeep Tour",
+        "Trekking",
+        "Photography"
+      ],
+      "createdAt": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Labuan Bajo",
+      "slug": "labuan-bajo",
+      "location": "Nusa Tenggara Timur",
+      "description": "Gerbang menuju keajaiban Flores dan Taman Nasional Komodo. Kota kecil yang mempesona dengan sunset yang memukau.",
+      "shortDescription": "Gateway to Komodo dengan sunset spektakuler",
+      "image": "/images/destinations/labuan-bajo.jpg",
+      "gallery": [
+        "/images/gallery/labuan-bajo-1.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": 2100,
+      "price": 3800000,
+      "category": "Beach",
+      "featured": false,
+      "highlights": [
+        "Live on Board",
+        "Island Hopping",
+        "Diving",
+        "Sunset Cruise"
+      ],
+      "createdAt": "2024-02-15T00:00:00Z"
+    }
+  ]
+}

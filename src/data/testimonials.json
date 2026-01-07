@@ -1,0 +1,59 @@
+{
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "avatar": "/images/testimonials/avatar-1.jpg",
+      "location": "Sydney, Australia",
+      "rating": 5,
+      "text": "Pengalaman yang luar biasa! Raja Ampat benar-benar surga di bumi. Tim guide sangat profesional dan ramah. Pasti akan kembali lagi!",
+      "destination": "Raja Ampat",
+      "date": "2024-03-15",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "avatar": "/images/testimonials/avatar-2.jpg",
+      "location": "Singapore",
+      "rating": 5,
+      "text": "Sunrise di Borobudur adalah momen spiritual yang tak terlupakan. Paket tur sangat terorganisir dengan baik. Highly recommended!",
+      "destination": "Borobudur",
+      "date": "2024-03-10",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Emma Wilson",
+      "avatar": "/images/testimonials/avatar-3.jpg",
+      "location": "London, UK",
+      "rating": 5,
+      "text": "Bali melebihi ekspektasi saya. Dari pantai hingga pura, semuanya indah. Akomodasi dan layanan sangat memuaskan.",
+      "destination": "Bali",
+      "date": "2024-02-28",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "name": "Takeshi Yamamoto",
+      "avatar": "/images/testimonials/avatar-4.jpg",
+      "location": "Tokyo, Japan",
+      "rating": 4,
+      "text": "Bertemu langsung dengan komodo adalah pengalaman seumur hidup. Pink Beach juga sangat menakjubkan. Terima kasih atas layanannya!",
+      "destination": "Komodo Island",
+      "date": "2024-02-20",
+      "featured": false
+    },
+    {
+      "id": "5",
+      "name": "Lisa Anderson",
+      "avatar": "/images/testimonials/avatar-5.jpg",
+      "location": "California, USA",
+      "rating": 5,
+      "text": "Volcano trekking di Bromo adalah petualangan terbaik! Pemandangan sunrise-nya worth every early morning wake up. Amazing experience!",
+      "destination": "Bromo",
+      "date": "2024-02-15",
+      "featured": false
+    }
+  ]
+}

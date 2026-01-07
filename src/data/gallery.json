@@ -1,0 +1,68 @@
+{
+  "gallery": [
+    {
+      "id": "1",
+      "title": "Raja Ampat Underwater",
+      "image": "/images/gallery/raja-ampat-underwater.jpg",
+      "category": "Nature",
+      "location": "Raja Ampat",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Borobudur Sunrise",
+      "image": "/images/gallery/borobudur-sunrise.jpg",
+      "category": "Cultural",
+      "location": "Magelang",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Bali Rice Terrace",
+      "image": "/images/gallery/bali-rice-terrace.jpg",
+      "category": "Nature",
+      "location": "Bali",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Komodo Dragon",
+      "image": "/images/gallery/komodo-dragon.jpg",
+      "category": "Wildlife",
+      "location": "Komodo Island",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Bromo Crater",
+      "image": "/images/gallery/bromo-crater.jpg",
+      "category": "Adventure",
+      "location": "East Java",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "Traditional Dance",
+      "image": "/images/gallery/traditional-dance.jpg",
+      "category": "Cultural",
+      "location": "Bali",
+      "featured": false
+    },
+    {
+      "id": "7",
+      "title": "Pink Beach",
+      "image": "/images/gallery/pink-beach.jpg",
+      "category": "Nature",
+      "location": "Komodo",
+      "featured": true
+    },
+    {
+      "id": "8",
+      "title": "Labuan Bajo Sunset",
+      "image": "/images/gallery/labuan-bajo-sunset.jpg",
+      "category": "Nature",
+      "location": "Labuan Bajo",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "name": "Diving Adventure",
+      "slug": "diving-adventure",
+      "description": "Jelajahi keindahan bawah laut Indonesia dengan diving adventure kami. Dipandu oleh instruktur bersertifikat internasional.",
+      "shortDescription": "Explore underwater paradise",
+      "image": "/images/experiences/diving.jpg",
+      "icon": "Waves",
+      "price": 1500000,
+      "duration": "Full Day",
+      "difficulty": "Intermediate",
+      "maxParticipants": 8,
+      "included": [
+        "Equipment",
+        "Instructor",
+        "Lunch",
+        "Transport"
+      ],
+      "category": "Water Sports",
+      "featured": true,
+      "createdAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Cultural Heritage Tour",
+      "slug": "cultural-heritage-tour",
+      "description": "Kunjungi situs-situs bersejarah dan pelajari budaya lokal bersama pemandu ahli kami. Termasuk workshop batik dan tari tradisional.",
+      "shortDescription": "Discover rich Indonesian culture",
+      "image": "/images/experiences/cultural.jpg",
+      "icon": "Landmark",
+      "price": 850000,
+      "duration": "8 Hours",
+      "difficulty": "Easy",
+      "maxParticipants": 15,
+      "included": [
+        "Guide",
+        "Entrance Fee",
+        "Lunch",
+        "Workshop"
+      ],
+      "category": "Cultural",
+      "featured": true,
+      "createdAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Volcano Trekking",
+      "slug": "volcano-trekking",
+      "description": "Pendakian gunung berapi dengan pemandangan matahari terbit yang spektakuler. Pengalaman tak terlupakan di puncak Indonesia.",
+      "shortDescription": "Sunrise summit experience",
+      "image": "/images/experiences/volcano.jpg",
+      "icon": "Mountain",
+      "price": 1200000,
+      "duration": "12 Hours",
+      "difficulty": "Challenging",
+      "maxParticipants": 10,
+      "included": [
+        "Guide",
+        "Transport",
+        "Breakfast",
+        "Safety Gear"
+      ],
+      "category": "Adventure",
+      "featured": true,
+      "createdAt": "2024-01-25T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Culinary Journey",
+      "slug": "culinary-journey",
+      "description": "Nikmati perjalanan kuliner melalui pasar tradisional dan restoran lokal. Belajar memasak hidangan otentik Indonesia.",
+      "shortDescription": "Taste authentic Indonesian cuisine",
+      "image": "/images/experiences/culinary.jpg",
+      "icon": "Utensils",
+      "price": 650000,
+      "duration": "5 Hours",
+      "difficulty": "Easy",
+      "maxParticipants": 12,
+      "included": [
+        "Food Tasting",
+        "Cooking Class",
+        "Recipe Book",
+        "Market Tour"
+      ],
+      "category": "Culinary",
+      "featured": false,
+      "createdAt": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Wildlife Safari",
+      "slug": "wildlife-safari",
+      "description": "Jelajahi habitat alami satwa langka Indonesia seperti orangutan, komodo, dan burung cenderawasih dalam safari edukatif.",
+      "shortDescription": "Meet exotic Indonesian wildlife",
+      "image": "/images/experiences/wildlife.jpg",
+      "icon": "Bird",
+      "price": 2500000,
+      "duration": "2 Days",
+      "difficulty": "Moderate",
+      "maxParticipants": 8,
+      "included": [
+        "Accommodation",
+        "Meals",
+        "Guide",
+        "Park Fees"
+      ],
+      "category": "Wildlife",
+      "featured": true,
+      "createdAt": "2024-02-10T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Island Hopping",
+      "slug": "island-hopping",
+      "description": "Kunjungi beberapa pulau eksotis dalam satu perjalanan. Snorkeling, berenang, dan berjemur di pantai-pantai tersembunyi.",
+      "shortDescription": "Explore hidden paradise islands",
+      "image": "/images/experiences/island.jpg",
+      "icon": "Palmtree",
+      "price": 1800000,
+      "duration": "Full Day",
+      "difficulty": "Easy",
+      "maxParticipants": 15,
+      "included": [
+        "Boat",
+        "Snorkeling Gear",
+        "Lunch",
+        "Refreshments"
+      ],
+      "category": "Water Sports",
+      "featured": false,
+      "createdAt": "2024-02-15T00:00:00Z"
+    }
+  ]
+}
